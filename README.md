@@ -1,4 +1,5 @@
 # SuperMarket-Billing-System
 Buy Goods And Bill Created
-Use Tecnology Html CSS Javascript
-![Screenshot (6)](https://github.com/Gaurav1287/SuperMarket-Billing-System/assets/72155398/c6c09a5f-ab5b-4dc4-a000-8cc83f8051d5)
+Use Technology Html CSS Javascript
+![marketbilling](https://github.com/Gaurav1287/SuperMarket-Billing-System/assets/72155398/47d8ccb3-db7c-4a85-998a-67dea3c47a6d)
+
