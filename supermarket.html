@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermarket Billing System</title>
+    <link rel="stylesheet" href="super.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Supermarket Billing System</h1>
+        <div id="items-container">
+            <!-- Item list will be dynamically generated here -->
+            <!-- Add this form inside the "container" div in your HTML -->
+        <form id="addItemForm">
+          <h2>Add Custom Item</h2>
+          <label for="itemName">Item Name:</label>
+          <input type="text" id="itemName" required>
+
+          <label for="itemPrice">Item Price:</label>
+          <input type="number" id="itemPrice" step="0.01" required>
+
+          <button type="button" onclick="addCustomItem()" >Add Item</button>
+       </form>
+
+        </div>
+        <div id="bill-container">
+            <h2>Bill</h2>
+            <ul id="bill-list">
+                <!-- Bill details will be dynamically generated here -->
+            </ul>
+            <p>Total: rs:<span id="total">0.00</span></p>
+        </div>
+
+    </div>
+    <script src="super.js"></script>
+</body>
+</html>

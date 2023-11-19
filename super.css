@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    /*border-left: 5px solid black;*/
+    border: 5px solid rgb(150,100,130);
+    background-color: gray;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 6px 4px 15px black;
+}
+
+#items-container {
+    margin-bottom: 20px;
+    border-left: 5px solid green;
+    border-top: 3px solid red;
+    border-right: 4px solid greenyellow;
+}
+
+#items-container button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    height: 30px;
+    margin-left:80px; 
+    font-size: 15px;
+    font-weight: bold; 
+    border-radius:10px;
+    box-shadow:2px 4px 8px black;  
+
+}
+
+#bill-container {
+    border-top: 2px solid #ccc;
+    padding-top: 20px;
+}
+
+#bill-list {
+    list-style: none;
+    padding: 0;
+}
+
+#bill-list li {
+    margin-bottom: 10px;
+}
+
+#total {
+    font-weight: bold;
+}
+label{
+   font-weight: bold;
+   font-size: 30px;
+   padding: 10px;
+}
+h2{
+    text-align: center;
+}
+#addItemForm  button{
+    height: 30px;
+    margin-left:450px; 
+    font-size: 15px;
+    font-weight: bold; 
+    border-radius:10px;
+    box-shadow:2px 4px 8px black;  
+}
+p{
+    font-size:25px;
+    font-weight: bold;
+    text-align: center; 
+}
+#bill-list
+{
+    font-size:20px;
+    font-weight: bold;
+
+}
+li{
+    color: red;
+    background-color: pink;
+    width: 50%;
+}
